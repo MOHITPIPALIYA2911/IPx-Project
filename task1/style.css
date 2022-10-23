@@ -1,0 +1,226 @@
+body{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+hr{
+    opacity: 0.2;
+    border: 1px solid #FFFFFF;
+    margin: 0px;
+}
+td{
+    padding-right: 70px;
+}
+a{
+    color: rgba(255, 255, 255, 0.575);
+    font-family:'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.pdr140{
+    padding-right: 140px;
+}
+
+#header{
+    background-color:#F61354 ;
+    height:45px ;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    
+}
+#hSec1{
+    display: flex;
+    justify-content:space-evenly; 
+    padding: 10px 2px;
+}
+#main{
+    background-color: black;
+    padding: 68px 80px;
+}
+
+
+#sec1{
+    display: flex;
+    justify-content: space-between; 
+}
+#cntUs{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 38px;
+}
+#ipLogo{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-radius: 0px;
+    
+}
+#xSup{
+    color: #F61354;
+    font-size: 22px;
+}
+
+#sec2{
+    display: flex;
+    justify-content: space-between; 
+    margin-top:60px ;
+}
+#sec2o2{
+    color: white;
+    width: 550px;
+}
+#sec2img{
+    border: 1px solid gray;
+    border-radius: 14px;
+}
+#sec2o2head{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.sec2o2smP{
+    font-size: 11px;
+    color: rgba(228, 228, 228, 0.493);
+    font-family: 'Poppins', sans-serif;
+}
+.sec2o2smP2{
+    color: rgba(228, 228, 228, 0.493);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+#flwNft{
+    height: 35px;
+}
+#sec2o2tab{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0px;
+}
+#sec2o2box{
+    border: 2px solid rgba(255, 255, 255, 0.507);
+    width: 547px;
+    height: 500px;
+}
+#s22bxdv{
+    padding: 20px 35px;
+}
+.sec2o2bxhd{
+    font-family: 'Poppins', sans-serif;
+    padding:17px 35px;
+    color: white;
+}
+.mainBox{
+    border: 2px solid rgba(255, 255, 255, 0.575);
+}
+.mainBoxH{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding:17px 68px;
+}
+.ffPop{
+    font-family: 'Poppins', sans-serif;
+}
+#darkPrice{
+    font-size: 35px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.paymentLG{
+    height: 55px;
+    margin: 10px 100px 0px 0px;
+}
+.paymentLG:hover{
+    border-radius: 5px;
+    padding: 0px 20px;
+    background-color: #180404;
+}
+.btn{
+    border-radius: 5px;
+    padding: 20px 50px;
+    border: 1px solid #E47298;
+    background-color: #180404;
+    color: white;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: #a86fbb;
+    border-color: #c700a6;
+}
+#btns{
+    display: flex;
+    justify-content: center;
+}
+.fs20{
+    font-size: 18px;
+}
+.paragraph{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 35px;
+}
+.innerBox{
+    padding:  0px 68px;
+    color: white;
+}
+.innerBoxH{
+    display: flex;
+    justify-content: space-between;
+}
+.mtb17{
+    margin: 17px 0px;
+}
+.upDown{
+    height: 18px;
+    margin-top: 18px;
+    
+    /* background-color: black; */
+}
+#blankBox{
+    border: 1px solid rgba(255, 255, 255, 0.589);
+    width: 150px;
+    margin: auto;
+}
+.footerBox{
+    
+}
+.footerBoxTxt{
+    font-family: 'Dosis', sans-serif;
+    font-size:45px;
+    color:white;
+}
+.footerBoxTxtB{
+    font-family: 'Montserrat', sans-serif;
+    font-size:45px;
+    color:white;
+}
+
+
+
+#sec9{
+    display: flex;
+    justify-content: center;
+}
+#mainBtn{
+    background-color: black;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.527);
+    border-radius: 27px;
+    padding: 13px 60px;
+    font-family: 'Poppins', sans-serif;
+}
+#mainBtn:hover{
+    background-color:#a86fbb;
+    color:white;
+    border: 2px solid #c700a6;
+}
+#footList li{
+    display: inline;
+    margin: 18px;
+    
+}
+#footList{
+    display: flex;
+    justify-content: center;
+}
