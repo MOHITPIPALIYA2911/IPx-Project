@@ -10,9 +10,6 @@ hr{
     border: 1px solid #FFFFFF;
     margin: 0px;
 }
-td{
-    padding-right: 70px;
-}
 a{
     color: rgba(255, 255, 255, 0.575);
     font-family:'Poppins', sans-serif;
@@ -69,6 +66,13 @@ a{
     justify-content: space-between; 
     margin-top:60px ;
 }
+@media only screen and (max-width:767px){
+    #sec2{
+        display:block;
+        /* justify-content:none;  */
+        margin-top:60px ;
+    }
+}
 #sec2o2{
     color: white;
     width: 550px;
@@ -83,14 +87,16 @@ a{
     margin-bottom: 30px;
 }
 .sec2o2smP{
+    padding-right: 70px;
     font-size: 11px;
     color: rgba(228, 228, 228, 0.493);
     font-family: 'Poppins', sans-serif;
 }
 .sec2o2smP2{
+    padding-right: 70px;
     color: rgba(228, 228, 228, 0.493);
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
 }
 #flwNft{
     height: 35px;
@@ -164,6 +170,14 @@ a{
     padding:  0px 68px;
     color: white;
 }
+#boxNtxt{
+    display: flex;
+}
+@media only screen and (max-width:767px){
+    #boxNtxt{
+        display: block;
+    }
+}
 .innerBoxH{
     display: flex;
     justify-content: space-between;
@@ -179,23 +193,137 @@ a{
 }
 #blankBox{
     border: 1px solid rgba(255, 255, 255, 0.589);
-    width: 150px;
-    margin: auto;
+    width: 394px;
+    height: 312px;
+    margin: 50px 0px 50px 50px;
+    
+}
+#mainBoxes{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width:1100px){
+    #mainBoxes{
+        padding: 40px;
+        display:block;
+        justify-content: space-between;
+    }
+}
+#sec8body{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top:30px ;
+}
+@media only screen and (max-width:1100px){
+    #sec8body{
+        flex-direction: column;
+    }
 }
 .footerBox{
-    
+    background-color: hsla(0, 0%, 13%, 0.5);
+    width: 342px;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footerBox2{
+    border-radius: 16px;
+    background-color: #121212;
+    width: 260px;
+    height: 320px;
+    padding: 15px;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footerBox:hover{
+    color: rgba(255, 255, 255);
+    background-color: rgba(47, 47, 47, 0.61);
+    border: 1px solid rgba(255, 255, 255, 0.575);
 }
 .footerBoxTxt{
     font-family: 'Dosis', sans-serif;
-    font-size:45px;
-    color:white;
+    font-size:30px;
+    
 }
 .footerBoxTxtB{
     font-family: 'Montserrat', sans-serif;
-    font-size:45px;
-    color:white;
+    font-size:28px;
 }
-
+.footerBoxLogo{
+    display: flex;
+    margin-top: 67px;
+    justify-content: space-between;
+}
+.footerBoxLogoImg{
+    height: 45px;
+    margin-right: 38px;
+}
+.fBoxTab{
+    padding: 55px;
+}
+#sec8{
+    border: 0px;
+    
+}
+.arowLR{
+    margin-right:10px ;
+    padding: 10px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.267);
+    border-radius: 50%;
+    opacity:80% ;
+}
+#sec8H{
+    margin-right:100px ;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+#sec8HOut{
+    display: flex;
+}
+.footerBoxImg{
+    width: 257.74px;
+    height: 175.29px;
+    border-radius: 11px;
+}
+.profPic{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #5c5b5b77;
+    width: 33.26px;
+    height: 33.26px;
+    margin-right: 20px ;
+}
+.footerBoxPrc{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    background-color: #080808;
+    color: white;
+    border-radius: 11px;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerBoxPrcTxt{
+    padding-top: 9px;
+}
+.footerBoxPrcBtn{
+    padding: 5px 12px ;
+    border-radius:75px ;
+    background-color: #E47298;
+}
+.footerBoxTbl{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 20px 0px;
+}
+.footerBoxTblTxt1{
+    font-size: 12.5px;
+}
+.footerBoxTblTxt2{
+    font-size: 11px;
+}
 
 
 #sec9{
