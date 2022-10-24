@@ -1,3 +1,4 @@
+
 body{
     margin: 0px;
 }
@@ -61,21 +62,46 @@ a{
     font-size: 22px;
 }
 
+
 #sec2{
     display: flex;
     justify-content: space-between; 
     margin-top:60px ;
 }
-@media only screen and (max-width:767px){
+
+@media only screen and (max-width:1200px){
     #sec2{
-        display:block;
-        /* justify-content:none;  */
-        margin-top:60px ;
+        flex-direction: column;
+    }
+
+}
+@media (max-width:700px){
+    #sec2pay{
+        display: grid;
+        flex-direction: column;
     }
 }
 #sec2o2{
     color: white;
     width: 550px;
+}
+@media(max-width:1200px){
+    #sec2o2{
+        width: 650px;
+        margin-top:20px ;
+    }
+}
+@media(max-width:810px){
+    #sec2o2{
+        width: 310px;
+        margin-top:20px ;
+    }
+}
+@media(max-width:410px){
+    #sec2o2{
+        width: 230px;
+        margin-top:20px ;
+    }
 }
 #sec2img{
     border: 1px solid gray;
@@ -92,14 +118,34 @@ a{
     color: rgba(228, 228, 228, 0.493);
     font-family: 'Poppins', sans-serif;
 }
+@media(max-width:490px){
+    .sec2o2smP{
+        padding-right: 30px;
+    }
+}
 .sec2o2smP2{
     padding-right: 70px;
     color: rgba(228, 228, 228, 0.493);
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
 }
+@media(max-width:490px){
+    .sec2o2smP2{
+        padding-right: 30px;
+    }
+}
 #flwNft{
     height: 35px;
+}
+@media(max-width:490px){
+    #flwNft{
+        height: 20px;
+    }
+}
+@media(max-width:410px){
+    #flwNft{
+        transform: rotate(90deg);
+    }
 }
 #sec2o2tab{
     font-family: 'Poppins', sans-serif;
@@ -109,6 +155,25 @@ a{
     border: 2px solid rgba(255, 255, 255, 0.507);
     width: 547px;
     height: 500px;
+}
+
+@media(max-width:1200px){
+    #sec2o2box{
+        width: 650px;
+        height: 700px;
+    }
+}
+@media(max-width:810px){
+    #sec2o2box{
+        width: 310px;
+        height: 800px;
+    }
+}
+@media(max-width:440px){
+    #sec2o2box{
+        width: 230px;
+        height: 920px;
+    }
 }
 #s22bxdv{
     padding: 20px 35px;
@@ -133,6 +198,13 @@ a{
     font-size: 35px;
     font-family: 'Fjalla One', sans-serif;
 }
+@media (max-width:1200px){
+    #darkPrice ,.sec2o2smP2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .paymentLG{
     height: 55px;
     margin: 10px 100px 0px 0px;
@@ -158,6 +230,11 @@ a{
     display: flex;
     justify-content: center;
 }
+@media(max-width:700px){
+    #btns{
+        flex-direction: column;
+    }
+}
 .fs20{
     font-size: 18px;
 }
@@ -173,9 +250,9 @@ a{
 #boxNtxt{
     display: flex;
 }
-@media only screen and (max-width:767px){
+@media only screen and (max-width:1100px){
     #boxNtxt{
-        display: block;
+        flex-direction: column;
     }
 }
 .innerBoxH{
@@ -198,16 +275,23 @@ a{
     margin: 50px 0px 50px 50px;
     
 }
+@media (max-width:657px){
+    #blankBox{
+        width: auto;
+        height: auto;
+        margin: 50px 0px 50px 50px;
+        
+    }
+}
+
 #mainBoxes{
     padding: 40px;
     display: flex;
     justify-content: space-between;
 }
-@media only screen and (max-width:1100px){
+@media (max-width:1100px){
     #mainBoxes{
-        padding: 40px;
-        display:block;
-        justify-content: space-between;
+        flex-direction: column;
     }
 }
 #sec8body{
@@ -215,7 +299,7 @@ a{
     justify-content:space-evenly;
     padding-top:30px ;
 }
-@media only screen and (max-width:1100px){
+@media (max-width:1100px){
     #sec8body{
         flex-direction: column;
     }
@@ -235,10 +319,19 @@ a{
     margin: 10px;
     color: rgba(255, 255, 255, 0.5);
 }
+.footerBox2:hover{
+    background-color: #353535 ;
+}
 .footerBox:hover{
     color: rgba(255, 255, 255);
     background-color: rgba(47, 47, 47, 0.61);
     border: 1px solid rgba(255, 255, 255, 0.575);
+}
+@media(max-width:610px){
+    .footerBox{
+        width: auto;
+        height: auto;
+    }
 }
 .footerBoxTxt{
     font-family: 'Dosis', sans-serif;
@@ -253,6 +346,11 @@ a{
     display: flex;
     margin-top: 67px;
     justify-content: space-between;
+}
+@media(max-width:610px){
+    .footerBoxLogo{
+        flex-direction: column;
+    }
 }
 .footerBoxLogoImg{
     height: 45px;
@@ -351,4 +449,10 @@ a{
 #footList{
     display: flex;
     justify-content: center;
+}
+
+@media(max-width:610px){
+    #footList{
+        flex-direction: column;
+    }
 }
